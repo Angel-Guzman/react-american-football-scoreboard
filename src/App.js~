@@ -11,6 +11,23 @@ function App() {
   // Tigers Team Score using state hook
   const [tigersPoints, setTigersPoints] = useState(0);
 
+  // const touchdown = event => {
+  //   console.log('YOU CLICKED A BUTTON!')
+
+  //   // Home Touchdown plus 7 points to lionsPoints
+    
+  //     setLionsPoints(lionsPoints + 7)
+    
+  //   // Home Field Goal plus 3 points to lionsPoints
+  //     // setLionsScore(lionsPoints + 3)
+  //   // Away Touchdown plus 7 points to tigerPoints
+
+  //   // Away Field Goal plus 3 points to tigerPoints
+
+
+  // }
+
+
   return (
     <div className="container">
       <section className="scoreboard">
